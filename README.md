@@ -27,19 +27,27 @@ Every model has specific data.
 
 # Product Releted APIs:
 APis to show all product :loacalhost/api/products
+
 APIs for delete specific product: loacalhost/api/products/delete/<int:pk>
+
 APIs for Update specific product: loacalhost/api/products/update/<int:pk>
 
 # Users Releted APIs
    APIs for user : localhost/api/users
+   
    APIs for specific user : localhost/api/users/<int:pk>
+   
    APIs for delete user : localhost/api/user/delete/<int:pk>
+   
    APIs for update user : localhost/api/user/update/<int:pk>
 
 # Invoice Releted APIs:
    APIs for invoice all data : api/invoices
+   
    APIs for invoice specific data : api/invoices/<int:pk>
+   
    APIs for invoice delete data : api/invoicedata/delete/<int:pk>
+   
    APIs for invoice update data : api/invoicedata/update/<int:pk>
           
  

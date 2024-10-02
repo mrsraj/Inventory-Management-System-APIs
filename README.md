@@ -26,20 +26,20 @@ Here, I have created some APIs for simple inventory management System. In this p
 Every model has specific data.
 
 # Product Releted APIs:
-APis to show all product :loacalhost/api/products
+APis to show all product :api/products
 
-APIs for delete specific product: loacalhost/api/products/delete/<int:pk>
+APIs for delete specific product: api/products/delete/<int:pk>
 
-APIs for Update specific product: loacalhost/api/products/update/<int:pk>
+APIs for Update specific product: api/products/update/<int:pk>
 
 # Users Releted APIs
-   APIs for user : localhost/api/users
+   APIs for user : api/users
    
-   APIs for specific user : localhost/api/users/<int:pk>
+   APIs for specific user : api/users/<int:pk>
    
-   APIs for delete user : localhost/api/user/delete/<int:pk>
+   APIs for delete user :api/user/delete/<int:pk>
    
-   APIs for update user : localhost/api/user/update/<int:pk>
+   APIs for update user : api/user/update/<int:pk>
 
 # Invoice Releted APIs:
    APIs for invoice all data : api/invoices
